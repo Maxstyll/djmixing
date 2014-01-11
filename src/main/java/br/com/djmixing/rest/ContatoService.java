@@ -11,7 +11,7 @@ public class ContatoService {
 @GET
 @Path("/{param}")
 public Response getMsg(@PathParam("param") String msg) {
-  String output = "Hello " + msg;
+  String output = "Parâmetro recebido " + msg;
   return Response.status(200).entity(output).build();
 }
 
