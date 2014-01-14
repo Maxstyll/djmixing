@@ -1,0 +1,172 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* CSS Document */
+body{padding:0px; margin:0px; background:#071e24; color:#fff; font-size: 62.5%; font-family: Helvetica, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Helvetica, sans-serif; color:#fff; text-decoration:underline;}
+p a:hover{ color:#fff; text-decoration:none;}
+
+.headline{font:12px/14px Helvetica, sans-serif; color:#15d2ef; font-weight:bold}
+.headline2{font:16px/18px Helvetica, sans-serif; color:#15d2ef; font-weight:bold}
+
+#container{width:775px; position:relative; margin:0 auto;}
+
+/* HEADER */
+
+#header{width:775px; height:301px; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+#header img#logo{position:absolute; top:175px; left:104px}
+
+#header ul.menu{position:absolute; top:27px; left:160px; width:600px}
+#header ul.menu li{height:51px; margin-right:23px; float:left}
+#header ul.menu li a{height:51px; text-indent:-20000px; text-decoration:none; font:18px Helvetica, sans-serif; color:#fff; font-weight:bold; line-height:50px}
+#header ul.menu li a:hover{height:51px;}
+
+#header ul.menu li.btn_1 a{width:58px }
+#header ul.menu li.btn_1 a:hover{width:58px}
+#header ul.menu li.btn_2 a{width:66px}
+#header ul.menu li.btn_2 a:hover{width:66px}
+#header ul.menu li.btn_3 a{width:84px}
+#header ul.menu li.btn_3 a:hover{width:84px}
+#header ul.menu li.btn_4 a{width:89px}
+#header ul.menu li.btn_4 a:hover{width:89px}
+#header ul.menu li.btn_5{margin-right:0}
+#header ul.menu li.btn_5 a{width:89px}
+#header ul.menu li.btn_5 a:hover{width:89px}
+
+#header ul.menu li.line{width:1px; background:url(../images/linem.gif) 0 0 no-repeat}
+
+/* CONTENT */
+
+#content{width:775px; position:relative; clear:both; margin: 0 auto}
+
+#leftPan{width:400px; float:left; margin:31px 40px 0 43px; display:inline}
+#rightPan{width:155px; float:left; margin:35px 0 0 0; }
+
+#welcome{margin-bottom:24px}
+#welcome h2{height:25px; position:relative; background:url(../images/h_welcome.png) 0 0 no-repeat; margin-bottom:8px}
+#welcome img{float:left; margin-right:15px; margin-left:4px; display:inline}
+#welcome p{float:left; width:240px}
+#welcome p span{display:block; margin-bottom:10px; padding-top:3px}
+
+#about h2{height:25px; position:relative; background:url(../images/h_about.png) 0 0 no-repeat; margin-bottom:8px;}
+#about img{float:left; margin-right:15px; margin-left:4px; display:inline}
+#about p{float:left; width:240px}
+#about p span{display:block; margin-bottom:10px; padding-top:3px}
+
+#about ul {margin-left:12px; clear:both; margin-top:15px}
+#about ul li{font:10px/14px Helvetica, sans-serif; background:url(../images/arrow.gif) 0 4px no-repeat; padding-left:18px; height:20px;}
+#about ul li a{color:#15d2ef; text-decoration:underline;}
+#about ul li a:hover{color:#fff; text-decoration:none;}
+
+#news{margin-bottom:10px}
+#news h2{height:21px; position:relative; background:url(../images/h_news.png) 0 0 no-repeat; margin-bottom:10px}
+#news p{margin-bottom:20px}
+
+#shows h2{height:21px; position:relative; background:url(../images/h_shows.png) 0 0 no-repeat; margin-bottom:10px}
+#shows p span{display:block; margin-bottom:10px; padding-top:3px}
+
+#declaracao{margin-bottom:24px; font:14px/16px Helvetica, sans-serif; font-weight:bold}
+#declaracao p{float:left; width:700px; margin-bottom:5px;}
+#declaracao p span{display:block; margin-bottom:10px; margin-top:10px; padding-top:3px}
+
+.clear#end{height:20px}
+
+/* FOOTER */
+
+#footer{width:775px; height:53px; clear:both; background:url(../images/b_footer.gif) 0 0 no-repeat }
+#footer p{font:11px/16px Helvetica, sans-serif; font-weight:normal; text-align:center; color:#fff;}
+#footer p#doacao {font:11px/16px Helvetica, sans-serif; font-weight:normal; text-align:left; color:#fff;}
+#footer p#radio {font:11px/16px Helvetica, sans-serif; font-weight:normal; text-align:right; color:#fff;}
+#footer p a{font:11px/16px Helvetica, sans-serif; font-weight:normal; color:#fff; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#fff}
+
+#caixa {width: 550px; height: 300px;}
+#caixa p#abas {display: inline-block; width: 680px; height: 40px; margin: 0 1px 0 1px; padding: 0; overflow: hidden; vertical-align: bottom;}
+#caixa p#abas a {display: inline-block; font-size: 12px; font-weight: bold; color: #666; text-decoration: none; padding: 10px 30px 10px 30px; margin: 0 1px 0 0; background-color: #071e24; border: 1px solid #ccc;}
+#caixa p#abas a:hover {background-color: #999; color: white;}
+#caixa p#abas a.selected {background-color: #15d2ef; color: #fff;}
+#caixa ul#conteudos {display: inline-block; width: 550px; height: 280px; margin: 0; padding: 0; border: 0px solid #ccc;}
+#caixa ul#conteudos li {display: inline-block; width: 550px; height: 250px; margin: 10px 20px 10px 20px; padding: 0; overflow: auto;}
+#caixa ul#conteudos li p {display: inline-block; width: 680px; height: 40px; margin: 0 1px 0 1px; padding: 0; overflow: hidden; vertical-align: bottom;}
+#caixa ul#conteudos li p#prog a {display: inline-block; font-size: 12px; font-weight: bold; color: #666; text-decoration: none; padding: 10px 30px 10px 30px; margin: 0 1px 0 0; background-color: #071e24; border: 1px solid #ccc;}
+#caixa ul#conteudos li p#prog a:hover {background-color: #999; color: white;}
+#caixa ul#conteudos li p#prog a.selected {background-color: #15d2ef; color: #fff;}
+
+/* dados para a programação */
+.clear {
+	clear: both;
+}
+
+#page-wrap {
+	width: 98%;
+	background: #005161;
+	margin: 5px auto;
+	padding: 5px;
+}
+
+.button {
+	float: left;
+	margin: 3px;
+	padding: 2px;
+	margin-right: 11px;
+}
+header { border-bottom: 1px solid #009cad; margin: 5px 5px; margin-bottom: 5px; padding-top: 5px; position:relative; text-align:center }
+footer { border-top: 1px solid #009cad; padding-bottom: 5px; margin: 5px 5px;  }
+
+
+ul.list { list-style: none; width: 100%; }
+ul.list li { display: block; background: #3f8891; padding: 5px 5px; }
+ul.list li.alt { background: #2d7e8c; }
+ul.list li section.left { display: block; float: left; width: 300px; position: relative; padding-left: 5px; }
+ul.list li section.right { display: block; float: right; margin-right: 5px; width: 150px; text-align: right; }
+ul.list li section.left img.thumb { float: left; margin-right: 5px; }
+ul.list li section.left img.featured-banner { position: absolute; left: -18px; top: 35px; }
+ul.list li section.left h3 { font-family: Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; color: #fff; font-size: 1.4em; line-height: 1.6em; } 
+ul.list li section.left span.meta { color: #e0e0e0; font-weight: normal; font-size: 1.1em; }
+ul.list li section.right span.price { font-weight: bold; display: block; margin-bottom: 5px; color: #44d8e3; font-size: 1.6em; text-align: right; }
+
+#domingo-button {opacity: 1.0; border-bottom: 1px solid black; margin-left: 8px;}
+#domingo { display: block; padding: 5px; width: 90%; margin: 0 auto; background: #2d7e8c; border-radius: 5px; margin-top: 5px; }
+
+#segunda-button {opacity: 0.5; border-bottom: 1px solid black;}
+#segunda { display: none; padding: 5px; width: 90%; margin: 0 auto; background: #2d7e8c; border-radius: 5px; margin-top: 5px; }
+
+#terca-button {opacity: 0.5; border-bottom: 1px solid black;}
+#terca { display: none; padding: 5px; width: 90%; margin: 0 auto; background: #2d7e8c; border-radius: 5px; margin-top: 5px; }
+
+#quarta-button {opacity: 0.5; border-bottom: 1px solid black;}
+#quarta { display: none; padding: 5px; width: 90%; margin: 0 auto; background: #2d7e8c; border-radius: 5px; margin-top: 5px; }
+
+#quinta-button {opacity: 0.5; border-bottom: 1px solid black;}
+#quinta { display: none; padding: 5px; width: 90%; margin: 0 auto; background: #2d7e8c; border-radius: 5px; margin-top: 5px; }
+
+#sexta-button {opacity: 0.5; border-bottom: 1px solid black;}
+#sexta { display: none; padding: 5px; width: 90%; margin: 0 auto; background: #2d7e8c; border-radius: 5px; margin-top: 5px; }
+
+#sabado-button {opacity: 0.5; border-bottom: 1px solid black;}
+#sabado { display: none; padding: 5px; width: 90%; margin: 0 auto; background: #2d7e8c; border-radius: 5px; margin-top: 5px; }
+
+/** clearfix **/
+.clearfix:after { program: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+
+label {
+ font:12px Helvetica, sans-serif; color:#fff
+}
+
+#resposta{
+	font:13px Helvetica, sans-serif; color:#00FFFF
+}
+
+#erro{
+	 color:#FF0000 !important
+}
