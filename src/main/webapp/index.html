@@ -1,14 +1,89 @@
-<html>
-  <head>
-  <title>DJ Mixing</title>
- </head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+	
+	<meta charset="UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="msvalidate.01" content="6A543A7B2914BB31001A00575D5765AE" />
+
+	<meta name="description" content="Estamos aqui para trazer o prazer de ouvir boa música eletrônica, ter as informações mais atualizadas do mundo da música eletrônica, e deixar você sempre satisfeito com os mixes de nossos exclusivos DJ's." />
+	<meta name="robots" content="flash back, house, web radio, r&b, musicas animadas, flash house, tribal house, musicas dançantes, energia positiva, musicas flash back, eletro house, ouvir flash back, flash back musicas, so flash back,os melhores flash back,melhores flash back, flash back house,ouvir musicas flash back,musicas de flash back,flash back dance" />
+	<meta name="googlebot" content="flash back, house, web radio, r&b, musicas animadas, flash house, tribal house, musicas dançantes, energia positiva, musicas flash back, eletro house, ouvir flash back, flash back musicas, so flash back,os melhores flash back,melhores flash back, flash back house,ouvir musicas flash back,musicas de flash back,flash back dance" />
+	<meta name="google" content="notranslate" />
+	<meta name="google-site-verification" content="HTML" />
+
+	<title>DJ Mixing-Online</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />		
+  <script src="js/angular.min.js" type="text/javascript"></script>
+	
+	<script>			
+		$(document).ready(function() {		  
+			$('a').addGlow({ textColor: '#00008B', haloColor: '#00008B', radius: 100 });		  
+			$("#content").load("home.html");		  
+			$(".btn_1 a").click(function(){			
+				$("#content").load("home.html");		  
+			});		  
+			$(".btn_2 a").click(function(){			
+				$("#content").load("aradio.html");		  
+			});		  
+			$(".btn_3 a").click(function(){			
+				$("#content").load("programacao.html");		  
+			});			
+			$(".btn_4 a").click(function(){			
+				$("#content").load("contato.html");		  
+			});		
+		});
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-45159530-1', 'djmixing.com.br');
+		ga('send', 'pageview');
+	</script>
+	
+	<script type="text/javascript">
+	//<![CDATA[
+		(function() {
+			var shr = document.createElement('script');
+			shr.setAttribute('data-cfasync', 'false');
+			shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+			shr.type = 'text/javascript'; shr.async = 'true';
+			shr.onload = shr.onreadystatechange = function() {
+				var rs = this.readyState;
+				if (rs && rs != 'complete' && rs != 'loaded') return;
+				var apikey = 'e9304a8fe595e1bf6fbb58971fe730e5';
+				try { Shareaholic.init(apikey); } catch (e) {}
+			};
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(shr, s);
+		})();
+	//]]>
+	</script>
+	
+</head>
   <body>
-    <p>&nbsp;</p>
-    <p align="center"><font size="7">P&aacute;gina em manuten&ccedil;&atilde;o</font></p>
-    <p align="center"><i><font face="Arial Narrow">Estamos em processo de reestrutura&ccedil;&atilde;o</font></i></p>
-    <p>&nbsp;</p>
-    <p align="center"><img border="0" src="images/manutencao.gif" width="293" height="279"></p>
-    <p align="center">&nbsp;</p>
-    <p align="center"><i><font face="Arial Narrow">Equipe t&eacute;cnica DJ Mixing</font></i></p>
+  	<div id="container">
+  		<div id="header">			
+  			<img src="images/logo.jpg" alt="LogoTipo" name="logo" width="244" height="52" id="logo"/> 		
+  		</div>
+
+      <p>&nbsp;</p>
+      <p align="center"><font size="7">P&aacute;gina em manuten&ccedil;&atilde;o</font></p>
+      <p align="center"><i><font face="Arial Narrow">Estamos em processo de reestrutura&ccedil;&atilde;o</font></i></p>
+      <p>&nbsp;</p>
+      <p align="center"><img border="0" src="images/manutencao.gif" width="293" height="279"></p>
+      <p align="center">&nbsp;</p>
+      <p align="center"><i><font face="Arial Narrow">Equipe t&eacute;cnica DJ Mixing</font></i></p>
+    </div>
+		<div id="footer" >
+			<form method='post' action='https://www.moip.com.br/Process.do'>
+				<input type='image' name='submit' src='https://static.moip.com.br/imgs/buttons/bt_doar_c02_e01.png' alt='DJ Mixing - Online, Toca a musica que você am' border='0' />
+				<input type='hidden' name='method' value='donation'/>
+				<input type='hidden' name='encrypted' value='oxT/EuIyxYDxoofKpYaTRA=='/>
+				<input type='hidden' name='type' value='2'/>
+			</form>		
+		</div>
   </body>
 </html>
