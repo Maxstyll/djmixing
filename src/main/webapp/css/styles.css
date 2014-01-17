@@ -25,24 +25,42 @@ p a:hover{ color:#fff; text-decoration:none;}
 #header{width:775px; height:301px; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
 #header img#logo{position:absolute; top:175px; left:104px}
 
-#header ul.menu{position:absolute; top:27px; left:160px; width:600px}
-#header ul.menu li{height:51px; margin-right:23px; float:left}
-#header ul.menu li a{height:51px; text-indent:-20000px; text-decoration:none; font:18px Helvetica, sans-serif; color:#fff; font-weight:bold; line-height:50px}
-#header ul.menu li a:hover{height:51px;}
+nav{
+    position:absolute; 
+    left:120px; 
+    display:inline-block; 
+    margin:40px auto 45px; 
+  }
 
-#header ul.menu li.btn_1 a{width:58px }
-#header ul.menu li.btn_1 a:hover{width:58px}
-#header ul.menu li.btn_2 a{width:66px}
-#header ul.menu li.btn_2 a:hover{width:66px}
-#header ul.menu li.btn_3 a{width:84px}
-#header ul.menu li.btn_3 a:hover{width:84px}
-#header ul.menu li.btn_4 a{width:89px}
-#header ul.menu li.btn_4 a:hover{width:89px}
-#header ul.menu li.btn_5{margin-right:0}
-#header ul.menu li.btn_5 a{width:89px}
-#header ul.menu li.btn_5 a:hover{width:89px}
+nav a{
+    display:inline-block; 
+    padding: 18px 30px; 
+    color:#fff !important; 
+    font-weight:bold; 
+    font-size:16px; 
+    text-decoration:none !important; 
+    line-height:1; 
+    text-transform: uppercase; 
+    background-color:transparent; 
+    -webkit-transition:background-color 0.25s; 
+    -moz-transition:background-color 0.25s; 
+    transition:background-color 0.25s;
+   }
 
-#header ul.menu li.line{width:1px; background:url(../images/linem.gif) 0 0 no-repeat}
+nav a:first-child{
+	border-radius:2px 0 0 2px;
+}
+
+nav a:last-child{
+	border-radius:0 2px 2px 0;
+}
+
+nav.home .home,
+nav.projects .projects,
+nav.services .services,
+nav.contact .contact{
+	background-color:#15d2ef;
+ }
 
 /* CONTENT */
 
