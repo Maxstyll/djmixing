@@ -51,10 +51,10 @@
   		<div id="header">			
     		<nav class="{{active}}" ng-click="$event.preventDefault()">
     			<!-- When a link in the menu is clicked, we set the active variable -->
-    			<a href="#" ng-class="myCssVar" class="home" ng-mouseover="myCssVar='css-class'" ng-mouseleave="myCssVar=''" ng-click="active='home'">Home</a>
-    			<a href="#" class="projects" ng-click="active='projects'">A Radio</a>
-    			<a href="#" class="services" ng-click="active='services'">Programação</a>
-    			<a href="#" class="contact" ng-click="active='contact'">Contatos</a>
+    			<a href="#" class="home"     ng-click="active='home'" ng-mouseover="myHome='css-class'" ng-mouseleave="myHome=''" ><span ng-class="myHome">Home</span></a>
+    			<a href="#" class="projects" ng-click="active='projects'" ng-mouseover="myProjects='css-class'" ng-mouseleave="myProjects=''" ><span ng-class="myProjects">A Radio</span></a>
+    			<a href="#" class="services" ng-click="active='services'" ng-mouseover="myServices='css-class'" ng-mouseleave="myServices=''" ><span ng-class="myServices">Programação</span></a>
+    			<a href="#" class="contact"  ng-click="active='contact'" ng-mouseover="myContact='css-class'" ng-mouseleave="myContact=''" ><span ng-class="myContact">Contatos</span></a>
     		</nav>
 
   			<img src="images/logo.jpg" alt="LogoTipo" name="logo" width="244" height="52" id="logo"/> 		
