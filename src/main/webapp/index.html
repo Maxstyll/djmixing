@@ -51,10 +51,10 @@
   		<div id="header">			
     		<nav class="{{active}}" ng-click="$event.preventDefault()">
     			<!-- When a link in the menu is clicked, we set the active variable -->
-    			<a href="#" class="home" ng-click="active='home'">Home</a>
-    			<a href="#" class="projects" ng-click="active='projects'">Projects</a>
-    			<a href="#" class="services" ng-click="active='services'">Services</a>
-    			<a href="#" class="contact" ng-click="active='contact'">Contact</a>
+    			<a href="#" class="home" ng-mouseover="myCssVar='css-class'" ng-mouseleave="myCssVar=''" ng-click="active='home'">Home</a>
+    			<a href="#" class="projects" ng-click="active='projects'">A Radio</a>
+    			<a href="#" class="services" ng-click="active='services'">Programação</a>
+    			<a href="#" class="contact" ng-click="active='contact'">Contatos</a>
     		</nav>
 
   			<img src="images/logo.jpg" alt="LogoTipo" name="logo" width="244" height="52" id="logo"/> 		
@@ -78,6 +78,8 @@
   		</div>
     </div>
 
+
+    <script src="http://code.angularjs.org/1.2.9/angular-animate.min.js"></script>
     <script src="js/angular.min.js" type="text/javascript"></script>
   	<script src="js/functions.js" type="text/javascript"></script>
   </body>
