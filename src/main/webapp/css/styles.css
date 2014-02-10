@@ -1,8 +1,11 @@
 * {margin: 0;	padding: 0;}
 
 /* CSS Document */
-body{padding:0px; margin:0px; background:#290001; color:#fff; font-size: 62.5%; font-family: Helvetica, sans-serif;}
-    
+body{padding:0px; margin:0px; background:#290001 url(../imagens/stripe.png) repeat top left; color:#fff; font-size: 62.5%; font-family: Helvetica, sans-serif;}
+span.reference{font-family:Arial;	text-transform:uppercase;	position:fixed;	right:95px;	bottom:10px;	font-size:11px;	text-shadow:1px 1px 1px #000;	}
+span.reference a{color:#aaa;text-decoration:none;margin-right:20px;}
+span.reference a:hover{color:#ddd;}
+
 #header-0{background:#ba865b; width:1024px; height:30px; position:relative;  margin:0 auto;}
 #header-1{background:#4a0001; width:1024px; height:100px; position:relative; margin:0 auto;}
 #container{background:#290001; width:1024px; height:600px; position:relative; margin:0 auto;}
@@ -35,8 +38,8 @@ body{padding:0px; margin:0px; background:#290001; color:#fff; font-size: 62.5%; 
 }
 span.cc_title{
 	color:#fff;
-	font-size:16px;
-	top:40px;
+	font-size:10px;
+	top:30px;
 	left:5px;
 	position:absolute;
 	padding:3px 0px;
