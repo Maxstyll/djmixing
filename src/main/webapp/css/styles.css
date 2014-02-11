@@ -74,8 +74,8 @@ span.cc_title{
 .cc_item img{
 	position:absolute;
 	width:140px;
-	height:100px;
-	top:-600px;
+	height:80px;
+	top:-200px;
 	left:0px;
 }
 .cc_content{
