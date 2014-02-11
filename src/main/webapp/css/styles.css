@@ -1,19 +1,19 @@
 * {margin: 0;	padding: 0;}
 
 /* CSS Document */
-body{padding:0px; margin:0px; background:#290001 url(../imagens/stripe.png) repeat top left; color:#fff; font-size: 62.5%; font-family: Helvetica, sans-serif;}
+body{padding:0px; margin:0px; background:#290001 url(../imagens/stripe.gif) repeat top left; color:#fff; font-size: 62.5%; font-family: Helvetica, sans-serif;}
 span.reference{font-family:Arial;	text-transform:uppercase;	position:fixed;	right:95px;	bottom:10px;	font-size:11px;	text-shadow:1px 1px 1px #000;	}
 span.reference a{color:#aaa;text-decoration:none;margin-right:20px;}
 span.reference a:hover{color:#ddd;}
 
 #header-0{opacity:0.9; background:#ba865b; width:1024px; height:40px; position:relative;  margin:0 auto;}
 #header-1{opacity:0.8; background:#4a0001; width:1024px; height:100px; position:relative; margin:0 auto;}
-#container{opacity:0.7; background:#290001; width:1024px; height:400px; position:relative; margin:0 auto;}
+#container{background:#290001; width:1024px; height:500px; position:relative; margin:0 auto;}
 #footer-1{opacity:0.8; background:#4a0001; width:1024px; height:100px; position:relative; margin:0 auto;}
 #footer-0{opacity:0.9; background:#ba865b; width:1024px; height:60px; position:relative; margin:0 auto;}
-#besquerda{width:33%; text-align: left;  position:absolute; left:10px;}
-#bcentro{width:34%; text-align: center; position:absolute; top:30px; left:350px;}
-#bdireita{width:33%; text-align: right; position:absolute; left:675px;}
+#besquerda{width:33%; text-align: left;  position:absolute; left:10px; margin:0 auto;}
+#bcentro{width:34%; text-align: center; position:absolute; top:30px; left:350px; margin:0 auto;}
+#bdireita{width:33%; text-align: right; position:absolute; left:675px; margin:0 auto;}
 
 .cc_menu{
 	width:700px; /*140px * 5*/
