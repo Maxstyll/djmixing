@@ -10,7 +10,7 @@ span.reference a:hover{color:#ddd;}
 
 #header-0{background:#ba865b; width:1024px; height:40px; position:relative;  margin:0 auto; z-index:999;}
 #header-1{opacity:0.8; background:#4a0001; width:1024px; height:100px; position:relative; margin:0 auto; z-index:998;}
-#container{opacity:0.8; background:#290001; width:1024px; height:500px; position:relative; margin:0 auto;}
+#container{opacity:0.8; background:#290001; width:1024px; height:325px; position:relative; margin:0 auto;}
 #footer-1{opacity:0.8; background:#4a0001; width:1024px; height:90px; position:relative; margin:0 auto; z-index:998;}
 #footer-0{background:#ba865b; width:1024px; height:60px; position:relative; margin:0 auto; z-index:999;}
 #besquerda{width:33%; text-align: left;  position:absolute; left:10px; margin:0 auto;}
@@ -23,7 +23,7 @@ span.reference a:hover{color:#ddd;}
   position:absolute; 
   left:660px; 
   top:2px; 
-  margin:5px 0 0 0; 	
+  margin:10px 0 0 0; 	
   border-bottom:1px solid #000;
 	-moz-box-shadow:3px -3px 10px #000;
 	-webkit-box-shadow:3px -3px 10px #000;
