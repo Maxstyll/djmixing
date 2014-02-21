@@ -1,4 +1,4 @@
-﻿/// <reference path="Jssor.Core.js" />
+/// <reference path="Jssor.Core.js" />
 /// <reference path="Jssor.Utils.js" />
 
 /*
