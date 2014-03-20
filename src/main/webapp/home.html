@@ -13,6 +13,19 @@ $(document).ready(function() {
       
     }
     setInterval(function(){ tick () }, 4000);
+
+
+
+    $(function(){
+    	$.getJSON("json/noticias.json", function(data){
+    		$.each(data.DADOS, function(i, item){
+    			$("#ticker").append(
+           '<li><p><span class="headline">'+item.data+'</span>'+item.descricao+'</p></li>'
+           );
+    		});
+    	});
+    });
+
 </script>
 
 <div id="home">
@@ -39,14 +52,6 @@ $(document).ready(function() {
   				<div id="news">
   					<h2></h2>
              <ul id="ticker">
-               <li><p><span class="headline">01/11/2013</span> Lançamento da maior web rádio de música eletrônica: DJ Mixing online - Toca a musica que você ama.</p></li>
-               <li><p><span class="headline">14/11/2013</span> Com uma line-up de dar inveja e uma paisagem magnânima e festa mais glamurosa de 2013 PARADISE WEEKEND estará na Costa do Sauípe.</p></li>
-               <li><p><span class="headline">15/11/2013</span> Dream Valley, o maior festival de música eletrônica do Brasil, desembarca no Parque Beto Carrero World.</p></li>
-               <li><p><span class="headline">16/11/2013</span> Um festival magnífico que na edição anterior (2012) trouxe em sua line-up David Guetta, Hardwell, Infected Mushroom e Alesso, está de volta com direito a quatro palcos.</p></li>
-               <li><p><span class="headline">18/11/2013</span> Lançamento da maior web rádio de música eletrônica: DJ Mixing online - Toca a musica que você ama.</p></li>
-               <li><p><span class="headline">20/11/2013</span> Com uma line-up de dar inveja e uma paisagem magnânima e festa mais glamurosa de 2013 PARADISE WEEKEND estará na Costa do Sauípe.</p></li>
-               <li><p><span class="headline">22/11/2013</span> Dream Valley, o maior festival de música eletrônica do Brasil, desembarca no Parque Beto Carrero World.</p></li>
-               <li><p><span class="headline">24/11/2013</span> Um festival magnífico que na edição anterior (2012) trouxe em sua line-up David Guetta, Hardwell, Infected Mushroom e Alesso, está de volta com direito a quatro palcos.</p></li>
              </ul>
   				</div>
   			</div>
