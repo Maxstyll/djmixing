@@ -1,9 +1,9 @@
 <script type="text/javascript">    
     $(function(){
     	$.getJSON("json/segredoDJs.json", function(data){
-    		$.each(data.DADOS, function(i, item){
+    		$.each(data.segredosDj, function(i, item){
     			$("#post").append(
-           '<img src="'+item.imagem+'" alt="welcome" width="126" height="77" alt="" /><p><span class="headline">'+item.titulo+'</span>'+item.breveDescricao+'</p>'
+           '<li></br><p><span class="headline">'+item.data +' - '+ item.titulo+'</span></p></br><img src="'+item.imagem+'" alt="welcome" width="600" height="300" alt="" /><span>'+item.breveDescricao+'</span></li>'
            );
     		});
     	});
@@ -11,5 +11,5 @@
 </script>
 
 <div id="segredoDJs">
-  <ul id="post"></ul>
+    <ul id="post"></ul>
 </div>
