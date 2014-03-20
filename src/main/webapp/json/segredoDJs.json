@@ -1,4 +1,12 @@
 {"segredosDj":[ 
-    {"data":"01/11/2013", "imagem":"", "link":"", "descricao":"Lançamento da maior web rádio de música eletrônica: DJ Mixing online - Toca a musica que você ama.", "playlist":"["A", "B", "C", "B"]"},
-    {"data":"14/11/2013", "imagem":"", "link":"", "descricao":"Com uma line-up de dar inveja e uma paisagem magnânima e festa mais glamurosa de 2013 PARADISE WEEKEND estará na Costa do Sauípe.", "playlist":"["1", "2", "3", "4"]"}
+    {"data":"22/11/2013", 
+     "titulo":"O segredo dos DJ’s - Corte Seco", 
+     "imagem":"imagens/products/TechnoHouse-big.jpg", 
+     "linkVide":"http://www.youtube.com/watch?v=siz_HfTM_oE", 
+     "breveDescricao":"Esta técnica você encontra mais em casas noturna do seguimento Techno House, Techno ou Dirty Durth, onde os DJ’s a utiliza para mudar o estilo de batidas ou introduzir uma capela em outra musica, é ótima para impressionar a Pista."},
+    {"data":"15/11/2013", 
+     "titulo":"O segredo dos DJ’s - Compassada", 
+     "imagem":"imagens/products/TechnoHouse-big.jpg", 
+     "linkVide":"http://www.youtube.com/watch?v=Jj92jpJnbvg", 
+     "breveDescricao":"Vamos começar pela mais fácil e a mais popular, para você ter uma idéia da popularidade desta técnica 90% e eu chego a arriscar 97% dos DJ’s que conheço apenas esta técnica, DJ Ronaldinho “97 FM - Lunch Break” ultimamente esta usando apenas esta."}
 ]}

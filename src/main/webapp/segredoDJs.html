@@ -1,3 +1,15 @@
-<div id="energiaPositiva">
-O Segredo dos DJs
+<script type="text/javascript">    
+    $(function(){
+    	$.getJSON("json/segredoDJs.json", function(data){
+    		$.each(data.DADOS, function(i, item){
+    			$("#post").append(
+           '<img src="'+item.imagem+'" alt="welcome" width="126" height="77" alt="" /><p><span class="headline">'+item.titulo+'</span>'+item.breveDescricao+'</p>'
+           );
+    		});
+    	});
+    });
+</script>
+
+<div id="segredoDJs">
+  <ul id="post"></ul>
 </div>
