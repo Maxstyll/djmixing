@@ -20,7 +20,7 @@ $(document).ready(function() {
     	$.getJSON("json/noticias.json", function(data){
     		$.each(data.DADOS, function(i, item){
     			$("#ticker").append(
-           '<li><p><span class="headline">'+item.data+'</span>'+item.descricao+'</p></li>'
+           '<li><p><span class="headline">'+item.data+'</span> '+item.descricao+'</p></li>'
            );
     		});
     	});
@@ -51,8 +51,7 @@ $(document).ready(function() {
   			<div id="rightPan">
   				<div id="news">
   					<h2></h2>
-             <ul id="ticker">
-             </ul>
+             <ul id="ticker"></ul>
   				</div>
   			</div>
      
